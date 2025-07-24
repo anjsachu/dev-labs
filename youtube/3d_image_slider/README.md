@@ -3,7 +3,7 @@
 A **totally over-engineered** 3D slider made with plain old HTML, CSS
 Why? Because we can. Also… because I was learning 3D transforms and needed an excuse.
 
-![3D Slider Preview](preview.mp4)  
+![3D Slider Preview](preview.gif)
 _(Look at it go! It spins, it slides… it does everything except make coffee.)_
 
 ## 🙏 Credits (aka "Don’t Sue Me")
