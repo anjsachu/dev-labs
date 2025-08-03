@@ -23,7 +23,7 @@
     --color-light-royal-blue: hsl(241, 81%, 54%);
 
     --color-violet-blue: hsla(256, 72%, 46%, 1);
-    --color-persian-blue: hsla(241, 72%, 46%, 0);
+    --color-persian-blue: hsla(241, 72%, 46%, 1);
 
     --color-white: hsl(0, 0%, 100%);
     --color-pale-blue: hsl(221, 100%, 96%);
@@ -50,23 +50,21 @@ body {
 .card {
     background-color: var(--color-white);
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    height: auto;
     border-radius: 20px;
     flex-wrap: wrap;
-    width: fit-content;
     max-width: 650px;
+    width: 95%;
 
     .result_card,
     .summary_card {
         flex: 50%;
-        max-width: 350px;
+        min-height: 100% !important;
     }
 
     .result_card {
         background: linear-gradient(180deg, var(--color-light-slate-blue) -70%, var(--color-light-royal-blue) 150%);
         border-radius: 20px;
-        height: 100%;
         padding: 2rem 2rem;
 
         display: flex;
@@ -81,7 +79,7 @@ body {
         }
 
         .result_filed {
-            background: linear-gradient(360deg, var(--color-light-slate-blue) -70%, var(--color-light-royal-blue) 150%);
+            background: linear-gradient(to top, var(--color-light-slate-blue) -170%, var(--color-light-royal-blue) 150%);
             margin: 2rem auto;
 
 
@@ -123,8 +121,6 @@ body {
         align-items: center;
         justify-content: flex-start;
 
-        height: 100%;
-        // width: 50%;
         padding: 2rem 2rem;
 
         .h3_wrap {
@@ -194,9 +190,25 @@ body {
             font-weight: 700;
             letter-spacing: 1px;
             font-size: 1rem;
+            cursor: pointer;
 
             color: var(--color-white);
             background-color: var(--color-dark-gray-blue);
         }
+
+        button:hover {
+            background: linear-gradient(to bottom, var(--color-light-slate-blue) -0%, var(--color-light-royal-blue) 100%);
+
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .result_filed {
+        max-width: 200px;
     }
 }
