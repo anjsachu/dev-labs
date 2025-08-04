@@ -4,7 +4,7 @@ A responsive single-column **coming soon landing page** for Ping, built with HTM
 
 ![Project Preview](./preview.jpeg) <!-- Replace with your screenshot -->
 
-🔗 Live Site: [View Demo](https://github.com/anjsachu/dev-labs/tree/main/frontendmentor/ping-coming-soon-page/)  
+🔗 Live Site: [View Demo](https://github.com/anjsachu/dev-labs/tree/main/frontendmentor/ping_coming_soon_page)  
 🧩 Challenge: [Frontend Mentor – Ping Coming Soon Page](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)
 
 ## 📚 What I Learned
