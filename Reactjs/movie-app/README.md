@@ -11,7 +11,7 @@ To run this project locally, follow these steps:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/movie-website.git
+git clone https://github.com/anjsachu/dev-labs/tree/main/Reactjs/movie-app
 cd movie-app
 ```
 
